@@ -15,6 +15,7 @@ int main() {
     cout << "8. Arabic" << endl;
     cout << "9. Greek" << endl;
     cout << "10. Portuguese" << endl;
+    cout << "11. Gujrati" << endl;
 
     int selection;
     cin >> selection;
@@ -27,35 +28,60 @@ int main() {
     if (rev == "yes") {
     switch (selection) {
         case 1:
+        {
             message = "Hello Ducks!";
             break;
+        }
         case 2:
+        {
             message = "¡Hola Patos!";
             break;
+        }
         case 3:
+        {
             message = "你好鸭子！";
             break;
+        }
         case 4:
+        {
             message = "नमस्ते बत्तू!";
             break;
+        }
         case 5:
+        {
             message = "Bonjour Canards!";
             break;
+        }
         case 6:
+        {
             message = "Hallo Enten!";
             break;
+        }
         case 7:
+        {
             message = "హలో డక్స్!";
             break;
+        }
         case 8:
+        {
             message = "مرحبا بالبط!";
             break;
+        }
         case 9:
+        {
             message = "Χαίρετε Πάπιες!";
             break;
+        }
         case 10:
+        {
             message = "Olá Patos!";
             break;
+        }
+        case 11:
+        {
+            message = "હાય ડક્સ!";
+            break;
+        }
         default:
             message = "Hello Ducks! This was an invalid selection, try again.";
             break;
@@ -64,39 +90,64 @@ int main() {
 }
 else {
     switch (selection) {
-    case 1:
-        message = "Hello Ducks!";
-        break;
-    case 2:
-        message = "¡Hola Patos!";
-        break;
-    case 3:
-        message = "你好鸭子！";
-        break;
-    case 4:
-        message = "नमस्ते बत्तू!";
-        break;
-    case 5:
-        message = "Bonjour Canards!";
-        break;
-    case 6:
-        message = "Hallo Enten!";
-        break;
-    case 7:
-        message = "హలో డక్స్!";
-        break;
-    case 8:
-        message = "مرحبا بالبط!";
-        break;
-    case 9:
-        message = "Χαίρετε Πάπιες!";
-        break;
-    case 10:
-        message = "Olá Patos!";
-        break;
-    default:
-        message = "Invalid selection.";
-        break;
+        case 1:
+            {
+                message = "Hello Ducks!";
+                break;
+            }
+            case 2:
+            {
+                message = "¡Hola Patos!";
+                break;
+            }
+            case 3:
+            {
+                message = "你好鸭子！";
+                break;
+            }
+            case 4:
+            {
+                message = "नमस्ते बत्तू!";
+                break;
+            }
+            case 5:
+            {
+                message = "Bonjour Canards!";
+                break;
+            }
+            case 6:
+            {
+                message = "Hallo Enten!";
+                break;
+            }
+            case 7:
+            {
+                message = "హలో డక్స్!";
+                break;
+            }
+            case 8:
+            {
+                message = "مرحبا بالبط!";
+                break;
+            }
+            case 9:
+            {
+                message = "Χαίρετε Πάπιες!";
+                break;
+            }
+            case 10:
+            {
+                message = "Olá Patos!";
+                break;
+            }
+            case 11:
+            {
+                message = "હાય ડક્સ!";
+                break;
+            }
+            default:
+                message = "Hello Ducks! This was an invalid selection, try again.";
+                break;
 }
 }
 
@@ -104,4 +155,3 @@ else {
 
     return 0;
 }
-
